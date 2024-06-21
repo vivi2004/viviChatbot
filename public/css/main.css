@@ -1,0 +1,71 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0%;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    
+}
+
+li{
+    float: left;
+    border-right:  1px solid #bbb;
+}
+
+li:last-child{
+    border-right: none;
+}
+ li a{
+     display: block;
+     color: white;
+     text-decoration: none;
+     padding: 14px 16px ;
+     text-align: center;
+ }
+ 
+ .body{
+    background-color: #87295e;
+ }
+
+ 
+
+ /* main.css */
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode .container {
+    background-color: #1e1e1e;
+}
+
+body.dark-mode .media {
+    background-color: #2c2c2c;
+}
+
+/* Dark Mode Toggle Button Styles */
+.toggle-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.toggle-button:hover {
+    background-color: #0056b3;
+}
+
+.cursive {
+    font-style: italic;
+}
